@@ -1,0 +1,32 @@
+{
+  "name": "safar-saathi-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Safar Saathi real-time bus tracking",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "build": "echo 'No build step needed for Node.js'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "@supabase/supabase-js": "^2.57.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "bus-tracking",
+    "real-time",
+    "websocket",
+    "transportation"
+  ],
+  "author": "Safar Saathi Team",
+  "license": "MIT"
+}
